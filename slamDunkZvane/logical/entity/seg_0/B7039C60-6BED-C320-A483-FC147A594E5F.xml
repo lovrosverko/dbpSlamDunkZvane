@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7039C60-6BED-C320-A483-FC147A594E5F" name="EKIPA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:26:25 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EKP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ekipa_ID" id="3573A3B1-BD21-61A6-439A-B8DCEC05928C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:26:49 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="2D0B4550-0DED-DD18-DCCA-3452A194B2AA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:28:32 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_igraca" id="CD698340-3141-DDA1-C0BE-BBCBE3097A42">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:49 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Predstavnik_ekipe" id="B331876A-D687-938D-4A1C-B556F7553498">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:32:12 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popust" id="4DDF18F5-9E3D-0C60-1ACE-E9194D040ECE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:32:44 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kupac_ID" id="BFE677DC-2238-C973-6A98-F5E84A8C9913">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:20:25 UTC</createdTime>
+<generatorID>5861C1EF-6B48-908A-4412-B5A443D8A6F1</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<referedAttribute>DEA17149-448A-7C83-3F6A-2E24764444A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA254A03-ACE0-831F-15F8-E7C42393D1F1" name="Ekipa PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:27:34 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3573A3B1-BD21-61A6-439A-B8DCEC05928C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

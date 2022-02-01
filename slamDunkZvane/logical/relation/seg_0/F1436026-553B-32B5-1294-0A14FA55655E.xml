@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="rel_PP_PP" directorySegmentName="seg_0" id="F1436026-553B-32B5-1294-0A14FA55655E">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:26:39 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<targetPk>83E53E5E-B1D1-22FE-7E29-5D524A079D88</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90E0F974-8246-C368-812D-A8BBBADCAA39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90E0F974-8246-C368-812D-A8BBBADCAA39</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

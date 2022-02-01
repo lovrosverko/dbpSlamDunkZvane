@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E45ADD1-EA3A-2BAC-2D29-8C0AE3A3FB79" name="POVIJEST CIJENA">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:28:22 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>POV</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_promjene" id="B807524D-5F74-2D9B-BD39-48F2B29A4083">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:28:40 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_promjene" id="E15C5A3B-7D13-B3B0-0B02-6A2B827170DF">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:28:54 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="972DEF02-DDB5-528C-4B33-FECA12C1A563">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:29:16 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka" id="3CCC5947-F870-CA47-38B1-31FE52418E41">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:29:31 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_isteka" id="5288FCD4-AD0D-3607-4771-533E50789A04">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:30:00 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artikl_ID" id="093B450C-73BF-4DD1-79A5-18FFC3BE11F5">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:31:02 UTC</createdTime>
+<generatorID>865E48CB-70AF-021F-741F-30D1A1508E49</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBF06D85-BB36-CAFB-05F2-5C5E2F2E5E76" name="Povijest cijena PK">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:28:50 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B807524D-5F74-2D9B-BD39-48F2B29A4083</attributeRef>
+<attributeRef>E15C5A3B-7D13-B3B0-0B02-6A2B827170DF</attributeRef>
+<attributeRef>093B450C-73BF-4DD1-79A5-18FFC3BE11F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

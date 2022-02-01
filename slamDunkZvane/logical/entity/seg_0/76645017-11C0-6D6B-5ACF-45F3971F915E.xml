@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76645017-11C0-6D6B-5ACF-45F3971F915E" name="KUPAC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:12:31 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>KUP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kupac_ID" id="DEA17149-448A-7C83-3F6A-2E24764444A8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:13:13 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="06DDC59C-3EC8-503E-1DDF-3BCC9482E935">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:19:40 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="E64FBFF1-C0AC-533A-BAC6-21532BBF934A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:14:16 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="BB135FB0-C227-74FB-6CB2-9C40493483D9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:14:57 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_telefona" id="A3DEA3A6-6121-E8FB-B47F-2FDD10B24CA5">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:15:14 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Iznos_Kupnje" id="28581C45-6CC7-A659-88A8-4364E76371DB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:16:05 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail1" id="33CFCA3C-FFED-DBFE-3C48-0C0B9A2698AA">
+<createdBy>Lovro Šverko</createdBy>
+<createdTime>2022-01-25 11:17:41 UTC</createdTime>
+<generatorID>002447B2-3C3C-77AB-59FA-E0CFD0DE6017</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43D46703-3E01-122E-743D-04DFDB66AAE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EBC4A02A-7CDB-61CB-1C74-CB0E277951B0" name="Kupac PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:14:09 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEA17149-448A-7C83-3F6A-2E24764444A8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="67E4E0ED-2BAA-7E5C-3F1F-E1CAFCA9D947" name="e-mail">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:20:18 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="E63FDA2B-2601-060B-EA08-E603B88742D5" value="true"/>
+</engineerTo>
+<newElementsIDs>06DDC59C-3EC8-503E-1DDF-3BCC9482E935</newElementsIDs>
+<usedAttributes>
+<attributeRef>06DDC59C-3EC8-503E-1DDF-3BCC9482E935</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
